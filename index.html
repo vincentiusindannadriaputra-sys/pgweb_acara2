@@ -1,0 +1,422 @@
+```html
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ACARA 2 | Bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        main {
+            margin-top: 80px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-success shadow fixed-top"
+            data-bs-theme="dark">
+
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#">
+                    Kulon Progo
+                </a>
+
+                <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <i class="bi bi-house-fill"></i>
+                                Beranda
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#deskripsi">
+                                <i class="bi bi-list-task"></i>
+                                Deskripsi
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#penduduk">
+                                <i class="bi bi-person-fill"></i>
+                                Penduduk
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#kecamatan">
+                                <i class="bi bi-postcard"></i>
+                                Kecamatan
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#website">
+                                <i class="bi bi-link"></i>
+                                Website
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gambar">
+                                <i class="bi bi-image"></i>
+                                Gambar
+                            </a>
+                        </li>
+
+                        <!-- TOMBOL INFO -->
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="#"
+                                data-bs-toggle="modal"
+                                data-bs-target="#infoModal">
+
+                                <i class="bi bi-info-circle-fill"></i>
+                                Info
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main class="container">
+
+        <!-- JUDUL -->
+        <div class="alert alert-warning shadow text-center">
+
+            <h1>Kulon Progo</h1>
+            <h3>DIY</h3>
+
+        </div>
+
+<!-- deskripsi -->
+
+        <div class="card" id="deskripsi">
+
+            <div class="card-header">
+
+                <h4>
+                    <i class="bi bi-list-ul"></i>
+                    Deskripsi
+                </h4>
+
+            </div>
+
+            <div class="card-body">
+
+                <p>
+                    Kabupaten Kulon Progo ꦏꦸꦭꦺꦴꦤ꧀ꦥꦿꦒ adalah sebuah kabupaten
+                    di Provinsi Daerah Istimewa Yogyakarta. Ibu kotanya adalah
+                    Kapanewon Wates.
+                </p>
+
+                <p>
+                    Kabupaten ini berbatasan langsung dengan Kabupaten Sleman,
+                    Kabupaten Bantul di timur, Samudra Hindia di selatan,
+                    Kabupaten Purworejo di barat, serta Kabupaten Magelang
+                    di utara.
+                </p>
+
+                <p>
+                    Nama Kulon Progo berasal dari kalimat Kulone Kali Progo
+                    yang berarti sebelah barat Sungai Progo. Kata "kulon"
+                    dalam bahasa Jawa berarti barat.
+                </p>
+
+                <p>
+                    Kulon Progo terdiri atas 12 kapanewon yang dibagi lagi
+                    menjadi kalurahan dan pedukuhan.
+                </p>
+
+                <p>
+                    Bagian barat laut wilayah kabupaten ini berupa pegunungan
+                    Bukit Menoreh, dengan puncaknya Puncak Suroloyo (1019 m).
+                    Sedangkan bagian selatan merupakan dataran rendah hingga
+                    ke wilayah pantai.
+                </p>
+
+            </div>
+
+        </div>
+
+<!-- penduduk -->
+
+        <div class="card mt-3" id="penduduk">
+
+            <div class="card-header">
+
+                <h4>
+                    <i class="bi bi-person-fill"></i>
+                    Penduduk
+                </h4>
+
+            </div>
+
+            <div class="card-body">
+
+                <table class="table table-striped">
+
+                    <thead>
+
+                        <tr>
+                            <th>No</th>
+                            <th>Jenis Kelamin</th>
+                            <th>Jumlah</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>1</td>
+                            <td>Laki-laki</td>
+                            <td>220.731 Jiwa</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Perempuan</td>
+                            <td>224.587 Jiwa</td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td>Total</td>
+                            <td>445.318 Jiwa</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+        <!-- kecamatan -->
+
+        <div class="card mt-3" id="kecamatan">
+
+            <div class="card-header">
+
+                <h4>
+                    <i class="bi bi-postcard"></i>
+                    Kecamatan
+                </h4>
+
+            </div>
+
+            <div class="card-body">
+
+                <ol>
+
+                    <li>Nanggulan</li>
+                    <li>Sentolo</li>
+                    <li>Wates</li>
+                    <li>Panjatan</li>
+                    <li>Pengasih</li>
+                    <li>Kalibawang</li>
+                    <li>Samigaluh</li>
+                    <li>Girimulyo</li>
+                    <li>Kokap</li>
+                    <li>Temon</li>
+                    <li>Galur</li>
+                    <li>Lendah</li>
+
+                </ol>
+
+            </div>
+
+        </div>
+
+<!-- website -->
+
+        <div class="card mt-3" id="website">
+
+            <div class="card-header">
+
+                <h4>
+                    <i class="bi bi-link"></i>
+                    Website
+                </h4>
+
+            </div>
+
+            <div class="card-body">
+
+                <p>
+                    <a href="https://www.kulonprogokab.go.id/"
+                        target="_blank">
+                        Pemkab Kulon Progo
+                    </a>
+                </p>
+
+                <p>
+                    <a href="https://id.wikipedia.org/wiki/Kabupaten_Kulon_Progo"
+                        target="_blank">
+                        Wikipedia
+                    </a>
+                </p>
+
+            </div>
+
+        </div>
+
+<!-- gambar -->
+
+        <div class="card mt-3" id="gambar">
+
+            <div class="card-header">
+
+                <h4>
+                    <i class="bi bi-image"></i>
+                    Gambar
+                </h4>
+
+            </div>
+
+            <div class="card-body">
+
+                <img src="https://soc-phoenix.s3-ap-southeast-1.amazonaws.com/wp-content/uploads/2018/05/30140503/f97224d363eac4b3828609e9a064e5db.jpg"
+                    class="img-fluid"
+                    width="600"
+                    alt="Kulon Progo">
+
+                <br><br>
+
+                <img src="Gambar/patungkudawates.jpg"
+                    class="img-fluid"
+                    width="600"
+                    alt="Patung Kuda Wates">
+
+                <hr>
+
+                <iframe width="600"
+                    height="315"
+                    src="https://www.youtube.com/embed/8HdYZLubTT0"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allowfullscreen>
+                </iframe>
+
+            </div>
+
+        </div>
+
+    </main>
+
+<!-- modal -->
+
+    <div class="modal fade"
+        id="infoModal"
+        tabindex="-1"
+        aria-labelledby="infoModalLabel"
+        aria-hidden="true">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title" id="infoModalLabel">
+
+                        <i class="bi bi-info-circle-fill"></i>
+                        Info
+
+                    </h5>
+
+                    <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <table class="table">
+
+                        <tr>
+                            <td><strong>Nama</strong></td>
+                            <td>:</td>
+                            <td>Vincentius Indan Nadria Putra</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>NIM</strong></td>
+                            <td>:</td>
+                            <td>25/560280/SV/26418</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Kelas</strong></td>
+                            <td>:</td>
+                            <td>PGW A</td>
+                        </tr>
+
+                    </table>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+
+                        Tutup
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+```
